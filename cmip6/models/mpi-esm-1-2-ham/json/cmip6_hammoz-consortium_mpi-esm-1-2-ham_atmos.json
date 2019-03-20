@@ -22,7 +22,7 @@
         }, 
         "cmip6.atmos.key_properties.model_family": {
             "values": [
-                "AGCM"
+                "AGCM: Atmospheric General Circulation Model"
             ]
         }, 
         "cmip6.atmos.key_properties.basic_approximations": {
@@ -176,8 +176,8 @@
                 "Sulphate", 
                 "Sea salt", 
                 "Dust", 
-                "BC", 
-                "POM"
+                "BC: black carbon / soot", 
+                "POM: particulate organic matter"
             ]
         }, 
         "cmip6.atmos.radiation.shortwave_radiation.name": {
@@ -208,8 +208,8 @@
         }, 
         "cmip6.atmos.radiation.shortwave_GHG.greenhouse_gas_complexity": {
             "values": [
-                "CO2", 
-                "CH4", 
+                "CO2: Carbon Dioxide", 
+                "CH4: Methane", 
                 "O3", 
                 "H2O"
             ]
@@ -223,7 +223,7 @@
         }, 
         "cmip6.atmos.radiation.shortwave_cloud_ice.optical_methods": {
             "values": [
-                "Mie theory"
+                "Mie theory: For spherical particles"
             ]
         }, 
         "cmip6.atmos.radiation.shortwave_cloud_liquid.physical_representation": {
@@ -235,12 +235,12 @@
         }, 
         "cmip6.atmos.radiation.shortwave_cloud_liquid.optical_methods": {
             "values": [
-                "Mie theory"
+                "Mie theory: For spherical particles"
             ]
         }, 
         "cmip6.atmos.radiation.shortwave_cloud_inhomogeneity.cloud_inhomogeneity": {
             "values": [
-                "Monte Carlo Independent Column Approximation"
+                "Monte Carlo Independent Column Approximation: McICA"
             ]
         }, 
         "cmip6.atmos.radiation.shortwave_aerosols.physical_representation": {
@@ -253,7 +253,7 @@
         }, 
         "cmip6.atmos.radiation.shortwave_aerosols.optical_methods": {
             "values": [
-                "Mie theory"
+                "Mie theory: For spherical particles"
             ]
         }, 
         "cmip6.atmos.radiation.longwave_radiation.name": {
@@ -283,19 +283,19 @@
         }, 
         "cmip6.atmos.radiation.longwave_GHG.greenhouse_gas_complexity": {
             "values": [
-                "CO2", 
-                "CH4", 
-                "N2O", 
-                "CFC-11 eq", 
-                "CFC-12 eq", 
+                "CO2: Carbon Dioxide", 
+                "CH4: Methane", 
+                "N2O: Nitrous Oxide", 
+                "CFC-11 eq: Summarize the effect of non CO2, CH4, N2O and CFC-12 gases with an equivalence concentration of CFC-11", 
+                "CFC-12 eq: Summarize the radiative effect of the Ozone Depleating Substances, ODSs, with a CFC-12 equivalence concentration", 
                 "O3", 
                 "H2O"
             ]
         }, 
         "cmip6.atmos.radiation.longwave_GHG.ODS": {
             "values": [
-                "CFC-11", 
-                "CFC-12"
+                "CFC-11: CFC", 
+                "CFC-12: CFC"
             ]
         }, 
         "cmip6.atmos.radiation.longwave_cloud_ice.physical_reprenstation": {
@@ -307,7 +307,7 @@
         }, 
         "cmip6.atmos.radiation.longwave_cloud_ice.optical_methods": {
             "values": [
-                "Mie theory"
+                "Mie theory: For spherical particles"
             ]
         }, 
         "cmip6.atmos.radiation.longwave_cloud_liquid.physical_representation": {
@@ -319,12 +319,12 @@
         }, 
         "cmip6.atmos.radiation.longwave_cloud_liquid.optical_methods": {
             "values": [
-                "Mie theory"
+                "Mie theory: For spherical particles"
             ]
         }, 
         "cmip6.atmos.radiation.longwave_cloud_inhomogeneity.cloud_inhomogeneity": {
             "values": [
-                "Monte Carlo Independent Column Approximation"
+                "Monte Carlo Independent Column Approximation: McICA"
             ]
         }, 
         "cmip6.atmos.radiation.longwave_aerosols.physical_representation": {
@@ -527,7 +527,7 @@
         }, 
         "cmip6.atmos.natural_forcing.solar_pathways.pathways": {
             "values": [
-                "SW radiation"
+                "SW radiation: Shortwave solar spectral irradiance."
             ]
         }, 
         "cmip6.atmos.natural_forcing.insolation_ozone.solar_ozone_impact": {
