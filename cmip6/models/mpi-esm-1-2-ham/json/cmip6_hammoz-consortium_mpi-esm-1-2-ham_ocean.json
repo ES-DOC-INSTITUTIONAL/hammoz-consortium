@@ -1,0 +1,19 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "hammoz-consortium", 
+    "seedingSource": null, 
+    "sourceID": "mpi-esm-1-2-ham", 
+    "topic": "ocean", 
+    "content": {
+        "cmip6.ocean.key_properties.name": {
+            "values": [
+                "MPIOM1.6.3"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.overview": {
+            "values": [
+                "For a description of the ocean model MPIOM1.6.3 see Mauritsen et al. (2019), Jungclaus et al. (2013) and Marsland et al. (2003)."
+            ]
+        }
+    }
+}

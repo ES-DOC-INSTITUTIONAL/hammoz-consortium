@@ -1,0 +1,274 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "hammoz-consortium", 
+    "seedingSource": null, 
+    "sourceID": "mpi-esm-1-2-ham", 
+    "topic": "atmoschem", 
+    "content": {
+        "cmip6.atmoschem.key_properties.name": {
+            "values": [
+                "HAM2.3"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.keywords": {
+            "values": [
+                "sulfur chemistry"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.overview": {
+            "values": [
+                "The sulfur chemistry module treats three sulfur species prognostically: sulfur dioxide (SO2), dimethyl sulfide (DMS) and sulfate (the latter not only in the gas phase but also as an aerosol). Three-dimensional climatological fields for oxidants are used i.e. ozone (O3), OH, H2O2, NO2 and NO3. Climatological monthly mean mixing ratios these oxidants from an eight-years (2003-2010) mean Monitoring Atmospheric Composition and Climate (MACC) reanalysis are used. In the gas phase, DMS and SO2 are oxidised by OH and DMS reacts with NO3. In the aqueous phase the oxidation of SO2 by H2O2 and O3 is considered. Sulfuric acid gas produced from gasphase chemistry can either condense on existing aerosol particles or nucleate to form new particles. Sulfate produced from aqueous phase chemistry is distributed to pre-existing soluble accumulation mode and coarse mode aerosol particles. For details see Tegen et al. (2018)."
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.chemistry_scheme_scope": {
+            "values": [
+                "Troposphere"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.basic_approximations": {
+            "values": [
+                "Only sulfur chemistry is considered"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.prognostic_variables_form": {
+            "values": [
+                "3D mass/mixing ratio for gas"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.number_of_tracers": {
+            "values": [
+                3
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.family_approach": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.coupling_with_chemical_reactivity": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.software_properties.repository": {
+            "values": [
+                "https://redmine.hammoz.ethz.ch/projects/hammoz"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.software_properties.code_version": {
+            "values": [
+                2.3
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.software_properties.code_languages": {
+            "values": [
+                "FORTRAN"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.method": {
+            "values": [
+                "Integrated"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.integrated_timestep": {
+            "values": [
+                450
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.integrated_scheme_type": {
+            "values": [
+                "Explicit"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.turbulence": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.convection": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.precipitation": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.emissions": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.deposition": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.gas_phase_chemistry": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.tropospheric_heterogeneous_phase_chemistry": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.aerosols": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.tuning_applied.description": {
+            "values": [
+                "No parameter tuning applied."
+            ]
+        }, 
+        "cmip6.atmoschem.grid.matches_atmosphere_grid": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.grid.resolution.name": {
+            "values": [
+                "T63L47"
+            ]
+        }, 
+        "cmip6.atmoschem.grid.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                18432
+            ]
+        }, 
+        "cmip6.atmoschem.grid.resolution.number_of_vertical_levels": {
+            "values": [
+                47
+            ]
+        }, 
+        "cmip6.atmoschem.transport.overview": {
+            "values": [
+                "Aerosol transport is handled by the atmospheric model ECHAM6.3"
+            ]
+        }, 
+        "cmip6.atmoschem.transport.use_atmospheric_transport": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.overview": {
+            "values": [
+                "Sulfur dioxide (SO2) emissions are from the CMIP6 forcing datasets (CEDS, Open Biomass Burning). Dimethyl sulfide (DMS) emissions are from the CMIP6 Open Biomass Burning forcing dataset. Oceanic DMS emissions are computed online based on near surface wind speeds. Terrestrial biogenic DMS emissions are prescribed. Tropospheric SO2 emissions from volcanoes are prescribed from an AeroCom dataset."
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.sources": {
+            "values": [
+                "Vegetation", 
+                "Sea surface", 
+                "Anthropogenic"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.method": {
+            "values": [
+                "Climatology", 
+                "Interactive"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species": {
+            "values": [
+                "SO2 (monthly), DMS (monthly)"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species": {
+            "values": [
+                "DMS"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.sources": {
+            "values": [
+                "Aircraft", 
+                "Biomass burning", 
+                "Volcanos"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.method": {
+            "values": [
+                "Climatology"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species": {
+            "values": [
+                "SO2 (monthly), DMS (monthly)"
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.overview": {
+            "values": [
+                "DMS is oxidized by reaction with OH during the day and NO3 at night. SO2 is oxidised by OH."
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_bimolecular_reactions": {
+            "values": [
+                3
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_termolecular_reactions": {
+            "values": [
+                0
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_tropospheric_heterogenous_reactions": {
+            "values": [
+                2
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_stratospheric_heterogenous_reactions": {
+            "values": [
+                0
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_advected_species": {
+            "values": [
+                3
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_steady_state_species": {
+            "values": [
+                0
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.interactive_dry_deposition": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.wet_deposition": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview": {
+            "values": [
+                "In the aqueous phase the oxidation of SO2 by H2O2 and O3 is considered."
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species": {
+            "values": [
+                "SO2, H2O2, O3"
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.aerosol_species": {
+            "values": [
+                "Sulphate"
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.number_of_steady_state_species": {
+            "values": [
+                2
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.interactive_dry_deposition": {
+            "values": [
+                true
+            ]
+        }
+    }
+}

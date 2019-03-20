@@ -1,0 +1,255 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "hammoz-consortium", 
+    "seedingSource": null, 
+    "sourceID": "mpi-esm-1-2-ham", 
+    "topic": "toplevel", 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "MPI-ESM1.2-HAM"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.keywords": {
+            "values": [
+                "ECHAM6.3, HAM2.3, MPIOM1.6.3, JSBACH3.20, HAMOCC6"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "MPI-ESM1.2-HAM is the latest version of the Max Planck Institute for Meteorology Earth System Model (MPI-ESM1.2) coupled with the Hamburg Aerosol Module (HAM2.3), developed by the HAMMOZ consortium. The HAMMOZ consortium is composed of ETH Zurich, Max Planck Institut for Meteorology, Forschungszentrum J\u00fclich, University of Oxford, the Finnish Meteorological Institute and the Leibniz Institute for Tropospheric Research, and managed by the Center for Climate Systems Modeling (C2SM) at ETH Zurich."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.flux_correction.details": {
+            "values": [
+                "-"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.year_released": {
+            "values": [
+                2019
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP3_parent": {
+            "values": [
+                "-"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_parent": {
+            "values": [
+                "-"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_differences": {
+            "values": [
+                "-"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.repository": {
+            "values": [
+                "https://redmine.hammoz.ethz.ch/projects/aerchemmip"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_version": {
+            "values": [
+                "MPI-ESM1.2-HAM"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.components_structure": {
+            "values": [
+                "The atmosphere component ECHAM6.3 is directly coupled to the aerosol and cloud microphysics module HAM2.3 and the land surface model JSBACH3.20. The ocean dynamic model MPIOM1.6.3 is directly coupled to the ocean biogeochemistry model HAMOCC6. These two major components are coupled via the coupler OASIS3-MCT."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.coupler": {
+            "values": [
+                "Other: document in cell to the right"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.description": {
+            "values": [
+                "See Mauritsen et al. (2019) for tuning of MPI-ESM1.2-LR. In order to use the ocean spin-up of MPI-ESM1.2-LR for MPI-ESM1.2-HAM, the energy input into the ocean (global mean net surface energy flux) was tuned to be similar. Also the pre-industrial global mean surface temperature in MPI-ESM1.2-LR was tuned to be similar to the one in MPI-ESM1.2-LR. Both together should minimize drift. In order to obtain acceptable Arctic sea ice cover and volume several adjustments were made including a higher minimum cloud droplet number concentration over land than over ocean and a different sea salt parameterization than the default one used in ECHAM6.3-HAM2.3. The minimum cloud droplet number concentration over ocean was adjusted to best meet the observed warming during the historical time period."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "net surface energy flux, surface temperature"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "Arctic sea ice cover, Arctic sea ice volume"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used": {
+            "values": [
+                "surface temperature evolution since 1850"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.global": {
+            "values": [
+                "For ECHAM6.3 and MPI-ESM1.2-LR see Mauritsen et al. (2019). Error 2 described in Mauritsen et al. (2019) is eliminated differently in ECHAM6.3-HAM2.3 and MPI-ESM1.2-HAM. The phase of detrained condensate is passed from the convection scheme to the stratiform scheme but in the stratiform cloud scheme the phase of the detrained condensate is recalculated based on atmospheric conditions (allowing supercooled liquid water) and the latent heat of fusion is released to the atmosphere if necessary."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision": {
+            "values": [
+                "Y", 
+                "E"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.SO4.provision": {
+            "values": [
+                "E"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.provision": {
+            "values": [
+                "E"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.provision": {
+            "values": [
+                "E"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.nitrate.provision": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.provision": {
+            "values": [
+                "M"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information": {
+            "values": [
+                "Aerosol-cloud interactions for stratiform liquid, mixed-phase and cirrus clouds are computed online. Detrained cloud droplets from convective clouds depend on the number of activated aerosol particles at the convective cloud base. Aerosol activation is computed using a K\u00f6hler-theory based parameterization. For stratiform mixed-phase clouds heterogenous nucleation (immersion and contact freezing) of supercooled cloud droplets is computed. For stratiform cirrus clouds homogeneous nucleation of solution droplets is computed. Size dependent wet scavenging of aerosol particles in-cloud and below cloud is included. The below cloud collection efficiencies as a function of aerosol and rain drop or snow crystal size are read from a look-up table. The in-cloud scavenging scheme takes nucleation scavenging and impaction scavenging of aerosol particles with cloud droplets and ice-crystals into account."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.provision": {
+            "values": [
+                "M"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.RFaci_from_sulfate_only": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information": {
+            "values": [
+                "see 2.1.12.3"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.dust.provision": {
+            "values": [
+                "M"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information": {
+            "values": [
+                "Dust emissions are computed online based on 10-m wind speed. For details see Tegen et al. (2018)."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.provision": {
+            "values": [
+                "E"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type E"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type E"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information": {
+            "values": [
+                "See Zhang et al. (2012) for details."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type A"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type D"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.provision": {
+            "values": [
+                "M"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information": {
+            "values": [
+                "Sea salt emissions are computed online based on 10-m wind speed. For details see Tegen et al. (2018)."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.land_use.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.land_use.crop_change_only": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.solar.provision": {
+            "values": [
+                "Irradiance"
+            ]
+        }
+    }
+}

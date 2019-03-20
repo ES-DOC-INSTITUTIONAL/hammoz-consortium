@@ -1,0 +1,14 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "hammoz-consortium", 
+    "seedingSource": null, 
+    "sourceID": "mpi-esm-1-2-ham", 
+    "topic": "seaice", 
+    "content": {
+        "cmip6.seaice.key_properties.overview": {
+            "values": [
+                "For a description of the unnamed sea ice model see Mauritsen et al. (2019), Jungclaus et al. (2013) and Notz et al. (2013)."
+            ]
+        }
+    }
+}
