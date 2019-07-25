@@ -1,0 +1,34 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "hammoz-consortium", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "HAMMOZ", 
+            "name": "HAMMOZ Consortium", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": null, 
+            "url": "https://redmine.hammoz.ethz.ch/projects/hammoz", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "NEUBAUER-DAVID", 
+            "name": "David Neubauer", 
+            "is_organisation": false, 
+            "address_postal": "ETH Z\u00fcrich", 
+            "address_email": "david.neubauer@env.eth.ch", 
+            "url": "http://www.iac.ethz.ch/people-iac/person-detail.html?persid=192632", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "FERRACHAT-SYLVAINE", 
+            "name": "Sylvaine Ferrachat", 
+            "is_organisation": false, 
+            "address_postal": "ETH Z\u00fcrich", 
+            "address_email": "sylvaine.ferrachat@env.ethz.ch", 
+            "url": "http://www.iac.ethz.ch/people-iac/person-detail.html?persid=133751", 
+            "orcid": "0000-0003-3366-8296"
+        }
+    ]
+}
