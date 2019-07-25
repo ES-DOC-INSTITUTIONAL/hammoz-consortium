@@ -1,0 +1,91 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "hammoz-consortium", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "Tegen_2018", 
+            "doi": "10.5194/gmd-2018-235", 
+            "bibtex": "\"@Article{gmd-2018-235,\nAUTHOR = {Tegen, I. and Neubauer, D. and Ferrachat, S. and Siegenthaler-Le Drian, C. and Bey, I. and Schutgens, N. and Stier, P. and Watson-Parris, D. and Stanelle, T. and Schmidt, H. and Rast, S. and Kokkola, H. and Schultz, M. and Schroeder, S. and Daskalakis, N. and Barthel, S. and Heinold, B. and Lohmann, U.},\nTITLE = {The aerosol-climate model ECHAM6.3-HAM2.3: Aerosol evaluation},\nJOURNAL = {Geoscientific Model Development Discussions},\nVOLUME = {2018},\nYEAR = {2018},\nPAGES = {1--54},\nURL = {https://www.geosci-model-dev-discuss.net/gmd-2018-235/},\nDOI = {10.5194/gmd-2018-235}\n}\"", 
+            "url": "https://doi.org/10.5194/gmd-2018-235", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Mauritsen_2019", 
+            "doi": "10.1029/2018MS001400", 
+            "bibtex": "\"@Article{2018MS001400,\nAUTHOR = {Thorsten Mauritsen, J\u00fcrgen Bader, Tobias Becker, J\u00f6rg Behrens, Matthias Bittner, Renate Brokopf, Victor Brovkin, Martin Claussen, Traute Crueger, Monika Esch, Irina Fast, Stephanie Fiedler, Dagmar Fl\u00e4schner, Veronika Gayler, Marco Giorgetta, Daniel S. Goll, Helmuth Haak, Stefan Hagemann, Christopher Hedemann, Cathy Hohenegger, Tatiana Ilyina, Thomas Jahns, Diego Jimenez de la Cuesta Otero, Johann Jungclaus, Thomas Kleinen, Silvia Kloster, Daniela Kracher, Stefan Kinne, Deike Kleberg, Gitta Lasslop, Luis Kornblueh, Jochem Marotzke, \nDaniela Matei, Katharina Meraner, Uwe Mikolajewicz, Kameswarrao Modali, Benjamin M\u00f6bis, Wolfgang A. M\u00fcller, Julia E. M. S. Nabel, Christine C. W. Nam, Dirk Notz, Sarah\u2010Sylvia Nyawira, \nHanna Paulsen, Karsten Peters, Robert Pincus, Holger Pohlmann, Julia Pongratz, Max Popp, \nThomas Raddatz, Sebastian Rast, Rene Redler, Christian H. Reick, Tim Rohrschneider, \nVera Schemann, Hauke Schmidt, Reiner Schnur, Uwe Schulzweida, Katharina D. Six, \nLukas Stein, Irene Stemmler, Bjorn Stevens, Jin\u2010Song von Storch, Fangxing Tian, Aiko Voigt, \nPhilipp de Vrese, Karl\u2010Hermann Wieners, Stiig Wilkenskjeld, Alexander Winkler, Erich Roeckner\n},\nTITLE = {Developments in the MPI\u2010M Earth System Model version 1.2 (MPI\u2010ESM 1.2) and its response to increasing CO2},\nJOURNAL = {Journal of Advances in Modeling Earth Systems},\nVOLUME = {},\nYEAR = {2019},\nPAGES = {},\nURL = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018MS001400},\nDOI = {10.1029/2018MS001400}\n}\"", 
+            "url": "https://doi.org/10.1029/2018MS001400", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Jungclaus_2013", 
+            "doi": "10.1002/jame.20023", 
+            "bibtex": "\"@Article{jame.20023,\nAUTHOR = {Jungclaus, J., N. Fischer, H. Haak, K. Lohmann, J. Marotzke, D. Matei, U. Mikolajewicz, D. Notz, and J. S. von Storch},\nTITLE = {Characteristics of the ocean simulations in the Max Planck Institute Ocean Model (MPIOM) the ocean component of the MPI-Earth system model},\nJOURNAL = {Journal of Advances in Modeling Earth Systems},\nVOLUME = {5},\nYEAR = {2013},\nPAGES = {422-446},\nURL = {https://agupubs.onlinelibrary.wiley.com/doi/10.1002/jame.20023},\nDOI = {10.1002/jame.20023}\n}\"", 
+            "url": "https://doi.org/10.1002/jame.20023", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Marsland_2003", 
+            "doi": "10.1016/S1463-5003(02)00015-X", 
+            "bibtex": "\"@Article{marsland2003max,\n  title={The Max-Planck-Institute global ocean/sea ice model with orthogonal curvilinear coordinates},\n  author={Marsland, Simon J and Haak, Helmuth and Jungclaus, Johann H and Latif, Mojib and R{\\\"o}ske, Frank},\n  journal={Ocean modelling},\n  volume={5},\n  number={2},\n  pages={91--127},\n  year={2003},\n  publisher={Elsevier}\n}\"", 
+            "url": "https://doi.org/10.1016/S1463-5003(02)00015-X", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Ilyina_2013", 
+            "doi": "10.1029/2012MS000178", 
+            "bibtex": "\"@article{ilyina2013global,\n  title={Global ocean biogeochemistry model HAMOCC: Model architecture and performance as component of the MPI-Earth system model in different CMIP5 experimental realizations},\n  author={Ilyina, Tatiana and Six, Katharina D and Segschneider, Joachim and Maier-Reimer, Ernst and Li, Hongmei and N{\\'u}{\\~n}ez-Riboni, Ismael},\n  journal={Journal of Advances in Modeling Earth Systems},\n  volume={5},\n  number={2},\n  pages={287--315},\n  year={2013},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://doi.org/10.1029/2012MS000178", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Paulsen_2017", 
+            "doi": "10.1002/2016MS000737", 
+            "bibtex": "\"@article{paulsen2017incorporating,\n  title={Incorporating a prognostic representation of marine nitrogen fixers into the global ocean biogeochemical model HAMOCC},\n  author={Paulsen, Hanna and Ilyina, Tatiana and Six, Katharina D and Stemmler, Irene},\n  journal={Journal of Advances in Modeling Earth Systems},\n  volume={9},\n  number={1},\n  pages={438--464},\n  year={2017},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://doi.org/10.1002/2016MS000737", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Notz_2013", 
+            "doi": "10.1002/jame.20016", 
+            "bibtex": "\"@article{notz2013arctic,\n  title={Arctic sea-ice evolution as modeled by Max Planck Institute for Meteorology's Earth system model},\n  author={Notz, Dirk and Haumann, F Alexander and Haak, Helmuth and Jungclaus, Johann H and Marotzke, Jochem},\n  journal={Journal of Advances in Modeling Earth Systems},\n  volume={5},\n  number={2},\n  pages={173--194},\n  year={2013},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://doi.org/10.1002/jame.20016", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Lohmann_2018", 
+            "doi": "10.5194/acp-18-8807-2018", 
+            "bibtex": "\"@article{lohmann2018importance,\n  title={The importance of mixed-phase and ice clouds for climate sensitivity in the global aerosol--climate model ECHAM6-HAM2},\n  author={Lohmann, Ulrike and Neubauer, David},\n  journal={Atmospheric Chemistry and Physics},\n  volume={18},\n  number={12},\n  pages={8807--8828},\n  year={2018},\n  publisher={Copernicus GmbH}\n}\"", 
+            "url": "https://doi.org/10.5194/acp-18-8807-2018", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Pincus_2013", 
+            "doi": "10.1002/jame.20027", 
+            "bibtex": "\"@article{pincus2013paths,\n  title={Paths to accuracy for radiation parameterizations in atmospheric models},\n  author={Pincus, Robert and Stevens, Bjorn},\n  journal={Journal of Advances in Modeling Earth Systems},\n  volume={5},\n  number={2},\n  pages={225--233},\n  year={2013},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://doi.org/10.1002/jame.20027", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Stevens_2013", 
+            "doi": "10.1002/jame.20015", 
+            "bibtex": "\"@article{stevens2013atmospheric,\n  title={Atmospheric component of the MPI-M Earth system model: ECHAM6},\n  author={Stevens, Bjorn and Giorgetta, Marco and Esch, Monika and Mauritsen, Thorsten and Crueger, Traute and Rast, Sebastian and Salzmann, Marc and Schmidt, Hauke and Bader, J{\\\"u}rgen and Block, Karoline and others},\n  journal={Journal of Advances in Modeling Earth Systems},\n  volume={5},\n  number={2},\n  pages={146--172},\n  year={2013},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://doi.org/10.1002/jame.20015", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Zhang_2012", 
+            "doi": "10.5194/acp-12-8911-2012", 
+            "bibtex": "\"@article{zhang2012global,\n  title={The global aerosol-climate model ECHAM-HAM, version 2: sensitivity to improvements in process representations},\n  author={Zhang, K and O'donnell, D and Kazil, J and Stier, P and Kinne, Stefan and Lohmann, U and Ferrachat, S and Croft, B and Quaas, Johannes and Wan, H and others},\n  journal={Atmospheric Chemistry and Physics},\n  volume={12},\n  number={19},\n  pages={8911--8949},\n  year={2012},\n  publisher={Copernicus GmbH}\n}\"", 
+            "url": "https://doi.org/10.5194/acp-12-8911-2012", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Lana_2011", 
+            "doi": "10.1029/2010GB003850", 
+            "bibtex": "\"@article{lana2011updated,\n  title={An updated climatology of surface dimethlysulfide concentrations and emission fluxes in the global ocean},\n  author={Lana, Arancha and Bell, TG and Sim{\\'o}, R and Vallina, SM and Ballabrera-Poy, J and Kettle, AJ and Dachs, J and Bopp, L and Saltzman, ES and Stefels, J and others},\n  journal={Global Biogeochemical Cycles},\n  volume={25},\n  number={1},\n  year={2011},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://doi.org/10.1029/2010GB003850", 
+            "long_name": null
+        }
+    ]
+}
