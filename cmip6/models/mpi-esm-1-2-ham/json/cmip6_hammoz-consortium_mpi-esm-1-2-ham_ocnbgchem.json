@@ -4,16 +4,5 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "mpi-esm-1-2-ham", 
     "topic": "ocnbgchem", 
-    "content": {
-        "cmip6.ocnbgchem.key_properties.name": {
-            "values": [
-                "HAMOCC6"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.overview": {
-            "values": [
-                "For a description of the ocean biogeochemistry model HAMOCC6 see Mauritsen et al. (2019), Ilyina et al. (2013) and Paulsen et al. (2017)."
-            ]
-        }
-    }
+    "content": {}
 }
