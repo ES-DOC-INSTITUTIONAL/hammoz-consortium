@@ -1,5 +1,27 @@
 {
     "stage one (i.e. default) conformances": {
         "publish": "on"
+    },
+    "stage two (i.e. final) conformances, arranged (key:value) by MIP -> Model": {
+        "AerChemMIP": {
+            "MPI-ESM-1-2-HAM": {
+                "publish": "off"
+            }
+        },
+        "CMIP": {
+            "MPI-ESM-1-2-HAM": {
+                "publish": "off"
+            }
+        },
+        "RFMIP": {
+            "MPI-ESM-1-2-HAM": {
+                "publish": "off"
+            }
+        },
+        "ScenarioMIP": {
+            "MPI-ESM-1-2-HAM": {
+                "publish": "off"
+            }
+        }
     }
 }
